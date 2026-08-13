@@ -39,7 +39,7 @@ import java.util.function.Supplier;
  */
 
 @Configurable
-@TeleOp(name = "TeleOpXD")
+@TeleOp(name = "TeleOp_DECODE")
 public class TeleOpMasterV3 extends OpMode {
     Mecanismos mecanism = new Mecanismos();
     Mecanismos.DetectedColor detectedColor;

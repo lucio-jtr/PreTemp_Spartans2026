@@ -64,13 +64,15 @@ import java.util.List;
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list
  */
 
-@Disabled
+
 @TeleOp(name = "Concept: Color-Locator (Rectangle)", group = "Concept")
+
 public class ConceptVisionColorLocator_Rectangle extends LinearOpMode
 {
     @Override
     public void runOpMode()
     {
+
         /* Build a "Color Locator" vision processor based on the ColorBlobLocatorProcessor class.
          * - Specify the color range you are looking for. Use a predefined color, or create your own
          *

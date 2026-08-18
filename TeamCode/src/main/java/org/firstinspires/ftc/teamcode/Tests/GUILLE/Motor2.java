@@ -1,8 +1,9 @@
 package org.firstinspires.ftc.teamcode.Tests.GUILLE;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-
+@Disabled
 @TeleOp(name="Mover Motor", group="Tests")
 public class Motor2 extends OpMode {
     DcMotor motor;

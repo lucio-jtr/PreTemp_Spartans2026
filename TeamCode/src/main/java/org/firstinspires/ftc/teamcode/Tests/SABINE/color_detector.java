@@ -3,6 +3,7 @@ package org.firstinspires.ftc.teamcode.Tests.SABINE;
 import android.util.Size;
 
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -17,7 +18,7 @@ import org.firstinspires.ftc.vision.opencv.PredominantColorProcessor;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Disabled
 @TeleOp
 public class color_detector extends LinearOpMode {
 

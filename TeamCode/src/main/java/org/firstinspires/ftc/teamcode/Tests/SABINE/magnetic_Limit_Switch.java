@@ -1,9 +1,10 @@
 package org.firstinspires.ftc.teamcode.Tests.SABINE;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DigitalChannel;
-
+@Disabled
 @TeleOp
 public class magnetic_Limit_Switch extends OpMode {
 

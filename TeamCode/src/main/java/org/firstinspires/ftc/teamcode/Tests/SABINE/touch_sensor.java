@@ -32,11 +32,12 @@ public class touch_sensor extends OpMode {
 
 package org.firstinspires.ftc.teamcode.Tests.SABINE;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.TouchSensor;
 
-
+@Disabled
 @TeleOp
 public class touch_sensor extends OpMode {
     TouchSensor touchSensor;

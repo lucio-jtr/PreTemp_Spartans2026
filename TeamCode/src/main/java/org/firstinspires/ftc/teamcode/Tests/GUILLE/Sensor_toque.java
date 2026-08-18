@@ -1,10 +1,12 @@
 package org.firstinspires.ftc.teamcode.Tests.GUILLE;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.TouchSensor;
 
 //El sensor de toque es una conexión digital
+@Disabled
 @TeleOp
 public class Sensor_toque extends OpMode {
     TouchSensor touchSensor;

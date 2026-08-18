@@ -1,8 +1,9 @@
 package org.firstinspires.ftc.teamcode.Tests.GUILLE;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.Servo;
-
+@Disabled
 @TeleOp(name="Mover Servomotor", group="Tests")
 public class Servomotor extends OpMode{
     Servo Servomotor;

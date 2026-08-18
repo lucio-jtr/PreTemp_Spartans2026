@@ -1,5 +1,7 @@
 package org.firstinspires.ftc.teamcode.Tests.GUILLE;
 import android.util.Size;
+
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.SortOrder;
@@ -13,7 +15,7 @@ import org.firstinspires.ftc.vision.opencv.ImageRegion;
 import org.opencv.core.RotatedRect;
 
 import java.util.List;
-
+@Disabled
 @TeleOp
 public class Camera_Detected extends LinearOpMode {
 
